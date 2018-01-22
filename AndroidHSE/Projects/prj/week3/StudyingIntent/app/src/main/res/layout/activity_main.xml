@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.studyingintent.MainActivity"
+    android:gravity="center|bottom"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/what_do_you_want_to_search"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/contactbookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address_book"
+        android:onClick="contactActivity"
+        android:layout_weight="0.10"/>
+
+    <Button
+        android:id="@+id/browserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="browserActivity"
+        android:text="@string/web_browser"
+        android:layout_weight="0.10"/>
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mapActivity"
+        android:text="@string/google_maps"
+        android:layout_weight="0.10"/>
+</LinearLayout>

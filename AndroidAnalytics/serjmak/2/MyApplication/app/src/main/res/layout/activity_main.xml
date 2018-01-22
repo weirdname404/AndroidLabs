@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:foreground="#191919"
+    tools:context="com.example.aolsvt.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="#191919"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="#191919"
+        android:uncertainGestureColor="@android:color/holo_red_dark"/>
+
+</LinearLayout>

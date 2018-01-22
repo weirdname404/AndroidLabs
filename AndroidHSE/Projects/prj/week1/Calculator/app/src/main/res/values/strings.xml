@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="rate_calculator">Rate Calculator</string>
+    <string name="rub">RUB</string>
+    <string name="usd">USD</string>
+    <string name="rub_usd">RUB/USD</string>
+    <string name="calculate">Calculate</string>
+</resources>

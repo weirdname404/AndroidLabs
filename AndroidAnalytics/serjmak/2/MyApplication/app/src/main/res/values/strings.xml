@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gesture Builder 2</string>
+    <string name="gesture_library_load_fail_dialog_title">Error</string>
+    <string name="gesture_library_load_fail_dialog_message">Failed to load gestures. The app will terminate</string>
+    <string name="unknown_gesture">Unknown gesture</string>
+
+</resources>

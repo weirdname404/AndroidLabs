@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyDOY_hDyJzPZ_OsVa1akYB16t_n5DE5liI</string>
+    <!--<string name="ga_trackingId">UA-110201227-1</string>-->
+    <!--<string name="google_analytics_key">UA-110201227-1</string>-->
+</resources>

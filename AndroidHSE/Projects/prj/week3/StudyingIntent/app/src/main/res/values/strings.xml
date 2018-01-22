@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudyingIntent</string>
+    <string name="web_browser">Web Browser</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="address_book">Address Book</string>
+    <string name="what_do_you_want_to_search">What do you want to search?</string>
+</resources>

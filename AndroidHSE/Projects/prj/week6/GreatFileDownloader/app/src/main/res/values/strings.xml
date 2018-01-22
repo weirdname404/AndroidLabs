@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GreatFileDownloader</string>
+    <string name="write_here_an_url_to_download_a_file">Paste here an URL of a file to download…</string>
+    <string name="download_file">Download</string>
+    <string name="download">Download</string>
+</resources>
